@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+.body_title,
+.body_button,
+ h1,
+ p,
+ legend{
+    text-align: center;
+}
+#title{
+    font-size: 50px;
+    color: #1898e0;
+    padding-bottom: 10px;
+}
+#subTitle{
+    font-size: 25px;
+    color: #247ba0;
+    padding-bottom: 10px;
+}
+fieldset{
+    border: 1px solid #008494;
+   
+}
+body{
+    background-color: #F0F8FF;
+    font-size: 23px;
+    color: #1898e0;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #006494;
+}
+input, select, option{
+    color: #1898e0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.campo, legend{
+    padding-bottom: 10px;
+}
+.campo label{
+    display:inline-block;
+    margin-bottom: 10px;
+    color: #247ba0;
+}
+fieldset.grupo .campo{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="number"],
+.campo input[type="tel"],
+.campo input[type="date"],
+.campo select{
+    border: 1px solid #13293d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.campo input:focus,
+.campo select:focus{
+    background: #f5d6d6;
+}
+.botao{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: #ffffff;
+    background-color: #1898e0;
+}
+.botao:hover {
+    background: #b7d5e5;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select, input[type="date"]{
+    cursor: pointer;    
+}

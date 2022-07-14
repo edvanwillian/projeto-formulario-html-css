@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap" rel="stylesheet">
+   
+    <title>Ficha de Cadastro</title>
+</head>
+<body>
+        <div class="body_title">
+            <h1 id="title">Cadastro Universal</h1>
+            <p id="subTitle">Complete suas informações abaixo:</p>
+            <br>
+        </div>
+        <form>
+            <fieldset class="grupo">
+                <legend>INFORMAÇÕES PESSOAIS</legend>
+                <div class="campo">
+                    <label>Nome</label>
+                    <input type="text" name="nome" required id="nome">
+                </div>    
+                <div class="campo">
+                    <label>Sobrenome</label>
+                    <input type="text" name="nome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email" name="email" required id="email">
+                </div>
+                <div class="campo">
+                    <label>Data de Nascimento</label>
+                    <input type="date" name="nascimento" required>
+                </div>
+                <div class="campo">
+                    <label>Sexo</label>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Não quero informar</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label>RG</label>
+                    <input type="number" name="nome" id="rg">
+                </div>
+                <div class="campo">
+                    <label>CPF</label>
+                    <input type="number" name="nome" id="cpf">
+                </div>
+                <div class="campo">
+                    <label>Telefone</label>
+                    <input type="tel" name="tel">                    
+                </div>
+            </fieldset>
+            <fieldset class="grupo">
+                <legend>ENDEREÇO</legend>                
+                <div class="campo">
+                    <label>Avenida/Rua</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>    
+                <div class="campo">
+                    <label>Número</label>
+                    <input type="number" name="nome" id="numero">
+                </div>                        
+                <div class="campo">
+                    <label>Bairro</label>
+                    <input type="text" name="bairro">
+                </div>
+                <div class="campo">
+                    <label>Cidade</label>
+                    <input type="text" name="cidade">
+                </div>
+                <div class="campo">
+                    <label>Estado</label>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>                      
+                    </select>
+                </div>
+                <div class="campo">
+                    <label>CEP</label>
+                    <input type="number" name="cep" id="cep">
+                </div>
+                <div class="campo">
+                    <label>Complemento</label>
+                    <input type="text" name="complemento">
+                </div>                
+            </fieldset>
+            <div class="body_button">
+            <button class="botao" type="submit">Enviar</button>  
+            </div>          
+        </form>
+</body>
+</html>
+
